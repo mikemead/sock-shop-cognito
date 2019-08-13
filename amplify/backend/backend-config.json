@@ -1,1 +1,9 @@
-{}
+{
+	"auth": {
+		"sockshop554e76ca": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

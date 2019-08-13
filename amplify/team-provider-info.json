@@ -9,6 +9,11 @@
             "UnauthRoleName": "sock-shop-demo-20190813163025-unauthRole",
             "StackName": "sock-shop-demo-20190813163025",
             "StackId": "arn:aws:cloudformation:eu-west-1:506913383403:stack/sock-shop-demo-20190813163025/45e91290-bddf-11e9-bba8-06e40231a4dc"
+        },
+        "categories": {
+            "auth": {
+                "sockshop554e76ca": {}
+            }
         }
     }
 }
