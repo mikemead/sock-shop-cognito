@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>UserID: <text className="App-highlight">{userid}</text></p>
-        <p>Username: <text className="App-highlight">{username}</text></p>
+        <p>UserID: <span className="App-highlight">{userid}</span></p>
+        <p>Username: <span className="App-highlight">{username}</span></p>
         <label className="App-input">
           <input type="file" accept="image/png" onChange={uploadFile} />
           Upload File
