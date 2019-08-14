@@ -31,7 +31,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>UserID: {userid}<br />Username: {username}</p>
-        <input type="file" accept="image/png" onChange={uploadFile} />
+        <label className="App-input">
+          <input type="file" accept="image/png" onChange={uploadFile} />
+          Upload File
+        </label>
       </header>
     </div>
   );

@@ -13,14 +13,19 @@
   color: white;
 }
 
-.App-button {
+.App-input {
   color: #ffffff;
   background-color: #00a289;
   border: 1px solid #ffffff;
   padding: 5px 20px;
   font-size: 48px;
+  cursor: pointer;
 }
 
-.App-button:hover {
+.App-input:hover {
   background-color: #e9530e;
+}
+
+input[type="file"] {
+    display: none;
 }
