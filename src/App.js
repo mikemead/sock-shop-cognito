@@ -12,7 +12,7 @@ function uploadFile(e) {
       contentType: 'image/png'
   })
   .then (result => console.log(result))
-  .catch(err => console.log(err));
+  .catch(err    => console.log(err));
 }
 
 function App() {
@@ -30,7 +30,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>UserID: {userid}<br />Username: {username}</p>
+        <p>UserID: <text className="App-highlight">{userid}</text></p>
+        <p>Username: <text className="App-highlight">{username}</text></p>
         <label className="App-input">
           <input type="file" accept="image/png" onChange={uploadFile} />
           Upload File
